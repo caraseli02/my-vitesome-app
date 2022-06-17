@@ -14,6 +14,7 @@ specifiers:
   cypress: ^10.1.0
   histoire: ^0.7.6
   pathe: ^0.2.0
+  pinia: ^2.0.14
   typescript: ^4.6.4
   unocss: ^0.32.8
   unplugin-vue-components: ^0.19.3
@@ -28,6 +29,7 @@ specifiers:
   vue-tsc: ^0.34.11
 
 dependencies:
+  pinia: 2.0.14_ytvqwwdyss532bvoq2clv4ed5m
   vue: 3.2.33
   vue-i18n: 9.2.0-beta.35_vue@3.2.33
   vue-router: 4.0.14_vue@3.2.33
@@ -2634,7 +2636,6 @@ packages:
       typescript: 4.6.4
       vue: 3.2.33
       vue-demi: 0.12.5_vue@3.2.33
-    dev: true
 
   /pkg-types/0.3.2:
     resolution: {integrity: sha512-eBYzX/7NYsQEOR2alWY4rnQB49G62oHzFpoi9Som56aUr8vB8UGcmcIia9v8fpBeuhH3Ltentuk2OGpp4IQV3Q==}
@@ -3391,7 +3392,6 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.33
-    dev: true
 
   /vue-i18n/9.2.0-beta.35_vue@3.2.33:
     resolution: {integrity: sha512-kTYzZSB3B/ar3M9RfQ0KAyTGfvRw544qVzY++/sNV4stOKG6NxIDOdHdYTfVEXTSkczFwoZHTKXTWNVpx+GuHA==}

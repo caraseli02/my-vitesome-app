@@ -2,10 +2,12 @@ import { createApp } from 'vue';
 import '@unocss/reset/tailwind.css'
 import 'uno.css'
 import { createI18n } from 'vue-i18n';
+import { createPinia } from 'pinia'
 
 
 import App from './App.vue';
 import './styles/base.css';
+const pinia = createPinia()
 
 // Router
 import { Router } from '/@/router';
@@ -23,5 +25,7 @@ const app = createApp(App);
 app.use(i18n);
 
 app.use(Router);
+
+app.use(pinia);
 
 app.mount('#app');
